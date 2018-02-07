@@ -1,0 +1,136 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+  margin: 0px;
+}
+
+ /* Begin Header */
+
+ header {
+   width: 100%;
+   position: fixed;
+   z-index: 1;
+   height: 69px;
+   border-bottom: 1px solid seashell;
+   align-items: center;
+   background-color: black;
+ }
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+  color: seashell;
+}
+
+h2, h3, h4 {
+  margin: 0px;
+  padding: 10px;
+}
+
+ /* End Header */
+
+ /* Begin Main Container */
+
+ .main {
+   padding-top: 69px;
+   opacity: 0.9;
+   width: 1200px;
+   margin: auto;
+ }
+
+  .item {
+    padding: 5px;
+  }
+
+  .item span {
+    display: block;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .item img {
+    height: 200px;
+    display: block;
+    margin: 10px;
+  }
+
+ #mission {
+   height: 700px;
+   background-image: url("../images/img-mission-background.jpg");
+   padding-top: 70px;
+ }
+
+ .flex-container {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+ }
+
+ #mission .content {
+   background-color: black;
+   width: 100%;
+   margin: auto;
+   height: 100px;
+   padding-bottom: 5px;
+ }
+
+ #tea {
+   height: 700px;
+   margin: auto;
+   padding-top: 70px;
+   width: 1000px;
+ }
+
+ #locations {
+   height: 500px;
+   background-image: url("../images/img-locations-background.jpg");
+   padding-top: 70px;
+ }
+
+ #locations .flex-container {
+   width: 1100px;
+   margin: auto;
+ }
+
+ .flex-container.locations {
+   padding-top: 5px;
+ }
+
+ .location {
+   opacity: 1;
+   background-color: black;
+   flex-basis: 280px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 10px;
+   margin: 5px 20px;
+ }
+
+ /* End Main Container */
+
+  /* Begin Footer */
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
+
+ /* End Footer */
